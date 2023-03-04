@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#slider{
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.im{
+    border-radius: 10px;
+    position: absolute;
+}
+#one{
+    left: 10px;
+    height: 150px;
+    width: 300px;
+}
+#two{
+    left: 30px;
+    height: 160px;
+    width: 300px;
+}
+#three{
+    left:50px;
+    z-index: 5;
+    height: 170px;
+    width: 300px;
+}
+#four{
+    left:70px;
+    z-index: 4;
+    height: 160px;
+    width: 300px;
+}
+#five{
+    left:90px;
+    height: 150px;
+    width: 300px;
+}
+#ek{
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    background-color: rgb(217, 217, 255);
+    opacity: 0;
+    z-index: 10;
+}
+#doo{
+    height: 160px;
+    position: absolute;
+    left: 30px;
+    width: 20px;
+    background-color: rgb(217, 217, 255);
+    opacity: 0;
+    z-index: 10;
+}
+#chaar{
+    height: 160px;
+    position: absolute;
+    left: 350px;
+    width: 20px;
+    background-color: rgb(217, 217, 255);
+    opacity: 0;
+    z-index: 10;
+}
+#panch{
+    height: 150px;
+    position: absolute;
+    left: 370px;
+    width: 20px;
+    background-color: rgb(217, 217, 255);
+    opacity: 0;
+    z-index: 10;
+
+}
